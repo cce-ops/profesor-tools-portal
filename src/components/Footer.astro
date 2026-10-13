@@ -1,0 +1,31 @@
+---
+interface Props {
+  buildDate: string;
+}
+
+const { buildDate } = Astro.props;
+---
+<footer class="site-footer">
+  <small>
+    Última actualización: {buildDate} ·{' '}
+    <a
+      href="https://github.com/cce-ops"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Código en GitHub
+    </a>
+  </small>
+</footer>
+
+<style>
+  .site-footer {
+    text-align: center;
+    max-width: var(--max-width);
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+  }
+</style>
