@@ -37,8 +37,8 @@
       "icon": "🌐",
       "links": [
         {
-          "name": "ProyectJudge",
-          "url": "https://github.com/cce-ops/ProyectJudge",
+          "name": "ProjectJudge",
+          "url": "https://projectjudge.pages.dev/",
           "description": "Juez de proyectos",
           "tags": ["web", "typescript"]
         },
