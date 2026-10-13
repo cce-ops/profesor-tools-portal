@@ -4,4 +4,4 @@ dist
 .vercel
 *.log
 .DS_Store
-*.local
+*.local.superpowers/

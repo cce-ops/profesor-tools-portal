@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "streamlit",
+      "name": "Apps de Streamlit",
+      "icon": "📊",
+      "links": [
+        {
+          "name": "Herramientas de Ingeniería",
+          "url": "https://github.com/cce-ops/herramientas-ingenieria",
+          "description": "PDS/AMFE/Ishikawa/QFD, PERT/CPM/Gantt y VAN/TIR/Payback en una sola app de Streamlit",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Archivo a Markdown",
+          "url": "https://github.com/cce-ops/archivo-a-markdown",
+          "description": "Convierte PDF, Word y PowerPoint a Markdown con MarkItDown (sin API)",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Plagio Detector",
+          "url": "https://github.com/cce-ops/plagio-detector",
+          "description": "Detector de plagio para proyectos de ingeniería con motor de reglas y LLM redactor",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Diseño de Producto",
+          "url": "https://github.com/cce-ops/Dise-de-producto",
+          "description": "Herramienta de diseño de producto",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Corrector de Informes",
+          "url": "https://github.com/cce-ops/Corrector-Informes",
+          "description": "Corrector de informes de proyectos",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Calculadora de Viabilidad",
+          "url": "https://github.com/cce-ops/calculadora-viabilidad-proyectos",
+          "description": "Calculadora de viabilidad de proyectos",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Planificador de Proyectos",
+          "url": "https://github.com/cce-ops/planificador-proyectos",
+          "description": "Planificador de proyectos de ingeniería",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Autoevaluador Huella de Carbono",
+          "url": "https://github.com/cce-ops/autoevaluador-huella-de-carbono",
+          "description": "Autoevaluador de huella de carbono",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Feedback PE",
+          "url": "https://github.com/cce-ops/feedback-PE",
+          "description": "Herramienta de feedback para Proyectos de Ingeniería",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Evaluador IA PE",
+          "url": "https://github.com/cce-ops/evaluador-ia-pe",
+          "description": "Evaluador con IA para Proyectos de Ingeniería",
+          "tags": ["streamlit", "python"]
+        },
+        {
+          "name": "Corrector de Rúbricas IA",
+          "url": "https://github.com/cce-ops/corrector-rubricas-ia",
+          "description": "Corrector de rúbricas con IA",
+          "tags": ["streamlit", "python"]
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "name": "Apps Web",
+      "icon": "🌐",
+      "links": [
+        {
+          "name": "ProyectJudge",
+          "url": "https://github.com/cce-ops/ProyectJudge",
+          "description": "Juez de proyectos",
+          "tags": ["web", "typescript"]
+        },
+        {
+          "name": "Quiz Wooclap",
+          "url": "https://github.com/cce-ops/quiz-wooclap",
+          "description": "Quiz estilo Wooclap",
+          "tags": ["web", "typescript"]
+        },
+        {
+          "name": "Herramienta LIDS",
+          "url": "https://github.com/cce-ops/herramienta-lids",
+          "description": "Herramienta de Diagnóstico de Ecodiseño (Rueda LIDS)",
+          "tags": ["web", "javascript"]
+        },
+        {
+          "name": "Infografía PDF",
+          "url": "https://github.com/cce-ops/infografia-pdf",
+          "description": "Generador de infografías en PDF",
+          "tags": ["web", "html"]
+        },
+        {
+          "name": "Herramienta Apuntes IA",
+          "url": "https://github.com/cce-ops/herramienta-apuntes-ia",
+          "description": "Convierte materiales docentes (PPTX, DOCX, PDF, MD) en apuntes estructurados con Gemini y exporta a Word editable",
+          "tags": ["web", "typescript"]
+        },
+        {
+          "name": "Generador PPTX",
+          "url": "https://github.com/cce-ops/generador-pptx",
+          "description": "De apuntes (.md/.docx/.pdf) a .pptx editable en el navegador. Estático, sin backend, BYOK",
+          "tags": ["web", "javascript"]
+        },
+        {
+          "name": "Evaluador Presentaciones IA",
+          "url": "https://github.com/cce-ops/evaluador-presentaciones-ia",
+          "description": "Evaluador de presentaciones con IA",
+          "tags": ["web", "typescript"]
+        },
+        {
+          "name": "Carbon Audit Assistant",
+          "url": "https://github.com/cce-ops/Carbon-audit-assistant",
+          "description": "Asistente de auditoría de CO2",
+          "tags": ["web", "typescript"]
+        }
+      ]
+    }
+  ]
+}
