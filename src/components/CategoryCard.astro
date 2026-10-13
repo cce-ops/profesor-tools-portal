@@ -1,0 +1,50 @@
+---
+import LinkCard from './LinkCard.astro';
+import type { Category } from '../data/schema';
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+---
+<section id={category.id} class="category" aria-labelledby={`${category.id}-heading`}>
+  <h2 id={`${category.id}-heading`}>
+    <span aria-hidden="true">{category.icon}</span> {category.name}
+  </h2>
+  <div class="link-grid">
+    {category.links.map((link) => <LinkCard link={link} />)}
+  </div>
+</section>
+
+<style>
+  .category {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .category h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .link-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+  }
+
+  @media (min-width: 641px) {
+    .link-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .link-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

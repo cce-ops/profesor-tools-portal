@@ -2,13 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import { links } from '../data/links';
 
 const buildDate = new Date().toISOString().split('T')[0];
 ---
 <Layout>
   <main>
     <Header />
-    <p>Portal en construcción.</p>
+    {links.categories.map((category) => <CategoryCard category={category} />)}
     <Footer buildDate={buildDate} />
   </main>
 </Layout>
