@@ -24,51 +24,9 @@
           "tags": ["streamlit", "python"]
         },
         {
-          "name": "Diseño de Producto",
-          "url": "https://github.com/cce-ops/Dise-de-producto",
-          "description": "Herramienta de diseño de producto",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Corrector de Informes",
-          "url": "https://github.com/cce-ops/Corrector-Informes",
-          "description": "Corrector de informes de proyectos",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Calculadora de Viabilidad",
-          "url": "https://github.com/cce-ops/calculadora-viabilidad-proyectos",
-          "description": "Calculadora de viabilidad de proyectos",
-          "tags": ["streamlit", "python"]
-        },
-        {
           "name": "Planificador de Proyectos",
           "url": "https://github.com/cce-ops/planificador-proyectos",
           "description": "Planificador de proyectos de ingeniería",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Autoevaluador Huella de Carbono",
-          "url": "https://github.com/cce-ops/autoevaluador-huella-de-carbono",
-          "description": "Autoevaluador de huella de carbono",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Feedback PE",
-          "url": "https://github.com/cce-ops/feedback-PE",
-          "description": "Herramienta de feedback para Proyectos de Ingeniería",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Evaluador IA PE",
-          "url": "https://github.com/cce-ops/evaluador-ia-pe",
-          "description": "Evaluador con IA para Proyectos de Ingeniería",
-          "tags": ["streamlit", "python"]
-        },
-        {
-          "name": "Corrector de Rúbricas IA",
-          "url": "https://github.com/cce-ops/corrector-rubricas-ia",
-          "description": "Corrector de rúbricas con IA",
           "tags": ["streamlit", "python"]
         }
       ]
@@ -118,12 +76,6 @@
           "name": "Evaluador Presentaciones IA",
           "url": "https://github.com/cce-ops/evaluador-presentaciones-ia",
           "description": "Evaluador de presentaciones con IA",
-          "tags": ["web", "typescript"]
-        },
-        {
-          "name": "Carbon Audit Assistant",
-          "url": "https://github.com/cce-ops/Carbon-audit-assistant",
-          "description": "Asistente de auditoría de CO2",
           "tags": ["web", "typescript"]
         }
       ]
